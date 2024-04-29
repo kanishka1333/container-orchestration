@@ -1,3 +1,10 @@
+1. To download and install the Compose CLI plugin, run:
+#curl -SL https://github.com/docker/compose/releases/download/v2.24.6/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+2.Apply executable permissions to the binary:
+#chmod +x /usr/local/bin/docker-compose
+3. Test the installation.
+#docker compose version
+
 1)Docker file
 # syntax=docker/dockerfile:1
 FROM python:3.10-alpine
